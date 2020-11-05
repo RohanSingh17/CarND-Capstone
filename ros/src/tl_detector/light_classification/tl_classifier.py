@@ -132,7 +132,7 @@ class TLClassifier(object):
                     return state
 
 
-                if state == -1:
+                # if state == -1:
                     # rospy.loginfo("Predicted State UNKNOWN- %s",scores[i])
  
                 i=i+1
