@@ -20,7 +20,8 @@ class TLClassifier(object):
         #TODO load classifier
         self.COLOR_LIST = []
 
-        SSD_GRAPH_FILE = '/home/student/CarND-Capstone/ros/src/tl_detector/Trained_model/frozen_inference_graph.pb'
+        # SSD_GRAPH_FILE = '/home/student/CarND-Capstone/ros/src/tl_detector/Trained_model/frozen_inference_graph.pb'
+        SSD_GRAPH_FILE = 'Trained_model/frozen_inference_graph.pb'
 
         self.detection_graph = self.load_graph(SSD_GRAPH_FILE)
 
